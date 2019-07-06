@@ -101,3 +101,15 @@ jsonContent:
       excerpt: false
       categories: false
       tags: true
+
+lazyload:
+  enable: true 
+  onlypost: true
+  loadingImg: /img/preloader.gif
+
+photoswipe:
+  enable: true
+  imageFileBaseDir: source/_posts
+  imgSrcIn: dataOriginal
+  className: image-container
+  dataType: content-image
