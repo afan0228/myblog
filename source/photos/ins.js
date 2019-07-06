@@ -126,7 +126,7 @@
                 <a href="' + src + '" itemprop="contentUrl" data-size="640x640" data-type="' + type + '" data-target="' + target + '">\
                   <img class="reward-img" data-type="' + type + '" data-src="' + minSrc + '" src="/assets/img/empty.png" itemprop="thumbnail" onload="lzld(this)">\
                 </a>\
-                <figcaption itemprop="caption description">' + data.text[i] + '</figcaption>\
+                <figcaption style="padding:10px 0" itemprop="caption description">' + data.text[i] + '</figcaption>\
             </figure>';
         }
         ulTmpl = ulTmpl + '<section class="archives album"><h1 class="year">' + data.year + '<em>' + data.month + '月</em></h1>\
